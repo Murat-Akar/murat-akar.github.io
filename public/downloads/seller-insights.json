@@ -1,5 +1,5 @@
 {
-  "name": "Seller Copilot - Weekly Operations",
+  "name": "Seller Insights - Weekly Operations",
   "nodes": [
     {
       "parameters": {
@@ -285,13 +285,13 @@
     },
     {
       "parameters": {
-        "content": "## Seller Copilot | Weekly Operations\n\nRead left to right on the first row, then left to right on the second.\nWeekly report → structured facts → calculations → action inbox → dashboard JSON.\n**Synthetic showcase. Gmail OAuth and live AI execution are separate setup/verification steps.**",
+        "content": "## Seller Insights | Weekly Operations\n\nRead left to right on the first row, then left to right on the second.\nWeekly report → structured facts → calculations → action inbox → dashboard JSON.\n**Synthetic showcase. Gmail OAuth and live AI execution are separate setup/verification steps.**",
         "height": 190,
         "width": 1870,
         "color": 7
       },
       "id": "4740f3c4-f10d-4210-a4a0-077aa600edd0",
-      "name": "Note - Seller Copilot | Weekly Operations",
+      "name": "Note - Seller Insights | Weekly Operations",
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
       "position": [
@@ -381,7 +381,7 @@
     },
     {
       "parameters": {
-        "formTitle": "Seller Copilot | Weekly Report",
+        "formTitle": "Seller Insights | Weekly Report",
         "formDescription": "Portfolio demo using synthetic data. Review or edit the pre-filled weekly report, then choose Analyze report. No Amazon account is connected.",
         "formFields": {
           "values": [
