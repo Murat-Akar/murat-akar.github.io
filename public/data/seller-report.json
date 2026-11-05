@@ -1,0 +1,904 @@
+{
+  "schema_version": "1.0",
+  "status": "completed",
+  "demo": true,
+  "report_id": "SELLER-DEMO-2026-W44-FORM",
+  "source": "form_demo",
+  "message_id": "form-2026-11-05T01:39:12.951-05:00",
+  "period": {
+    "start": "2026-10-26",
+    "end": "2026-11-01",
+    "currency": "USD"
+  },
+  "generated_at": "2026-11-05T06:41:55.096Z",
+  "summary": "4 products analyzed. 5 high-priority actions require review. Figures use only the supplied weekly report.",
+  "summary_method": "deterministic_template",
+  "kpis": {
+    "units": 111,
+    "revenue": 3929.89,
+    "ad_spend": 662,
+    "ad_sales": 1850,
+    "refund_amount": 109.97,
+    "return_requests": 7,
+    "contribution": 1033.92,
+    "period_expenses": 80,
+    "contribution_after_period_expenses": 953.92,
+    "tacos_pct": 16.85,
+    "acos_pct": 35.78
+  },
+  "products": [
+    {
+      "sku": "STM-01",
+      "name": "Travel Steamer",
+      "landed_unit_cost": 20,
+      "amazon_fee_per_sold_unit": 9,
+      "available_stock": 120,
+      "stock_as_of": "2026-11-01",
+      "weekly": {
+        "units": 42,
+        "revenue": 2099.58,
+        "ad_spend": 160,
+        "ad_sales": 900,
+        "refund_amount": 49.99,
+        "return_requests": 2
+      },
+      "daily": [
+        {
+          "date": "2026-10-26",
+          "units": 5,
+          "revenue": 249.95,
+          "ad_spend": 20
+        },
+        {
+          "date": "2026-10-27",
+          "units": 6,
+          "revenue": 299.94,
+          "ad_spend": 22
+        },
+        {
+          "date": "2026-10-28",
+          "units": 5,
+          "revenue": 249.95,
+          "ad_spend": 18
+        },
+        {
+          "date": "2026-10-29",
+          "units": 7,
+          "revenue": 349.93,
+          "ad_spend": 25
+        },
+        {
+          "date": "2026-10-30",
+          "units": 6,
+          "revenue": 299.94,
+          "ad_spend": 25
+        },
+        {
+          "date": "2026-10-31",
+          "units": 8,
+          "revenue": 399.92,
+          "ad_spend": 30
+        },
+        {
+          "date": "2026-11-01",
+          "units": 5,
+          "revenue": 249.95,
+          "ad_spend": 20
+        }
+      ],
+      "supply": {
+        "production_days": 20,
+        "transit_days": 20,
+        "receiving_days": 7,
+        "safety_days": 7,
+        "planned_order_qty": 300,
+        "incoming_qty": 100,
+        "incoming_sellable_date": "2026-11-25"
+      },
+      "source_excerpt": "STM-01 — Travel Steamer\nLanded unit cost: $20. Amazon fee per sold unit: $9. Available stock: 120 units as of 2026-11-01.\nWeekly units: 42; revenue: $2099.58; ad spend: $160; ad-attributed sales: $900; completed refund amount: $49.99; return requests opened: 2.",
+      "metrics": {
+        "units": 42,
+        "revenue": 2099.58,
+        "ad_spend": 160,
+        "ad_sales": 900,
+        "refund_amount": 49.99,
+        "return_requests": 2,
+        "net_revenue": 2049.59,
+        "sold_unit_cost": 840,
+        "estimated_amazon_fees": 378,
+        "contribution": 671.59,
+        "contribution_margin_pct": 32.77,
+        "tacos_pct": 7.62,
+        "acos_pct": 17.78,
+        "return_request_intensity_pct": 4.76
+      },
+      "daily_series": [
+        {
+          "date": "2026-10-26",
+          "units": 5,
+          "revenue": 249.95,
+          "ad_spend": 20,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-27",
+          "units": 6,
+          "revenue": 299.94,
+          "ad_spend": 22,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-28",
+          "units": 5,
+          "revenue": 249.95,
+          "ad_spend": 18,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-29",
+          "units": 7,
+          "revenue": 349.93,
+          "ad_spend": 25,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-30",
+          "units": 6,
+          "revenue": 299.94,
+          "ad_spend": 25,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-31",
+          "units": 8,
+          "revenue": 399.92,
+          "ad_spend": 30,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-11-01",
+          "units": 5,
+          "revenue": 249.95,
+          "ad_spend": 20,
+          "source": "supplied_daily_row"
+        }
+      ],
+      "daily_coverage": {
+        "units": 7,
+        "revenue": 7,
+        "ad_spend": 7
+      },
+      "stock_plan": {
+        "as_of": "2026-11-01",
+        "average_daily_units": 6,
+        "coverage_days": 20,
+        "new_order_lead_days": 47,
+        "new_order_sellable_date": "2026-12-18",
+        "recorded_incoming_qty": 100,
+        "recorded_incoming_sellable_date": "2026-11-25",
+        "incoming_included_in_forecast": true,
+        "expected_gap_days_before_new_order": 10.33,
+        "first_gap_day_offset": 20,
+        "reorder_point_units": 324,
+        "below_reorder_point": true,
+        "planned_order_qty": 300,
+        "planned_order_coverage_days": 50,
+        "status": "stock_gap_risk",
+        "assumption": "Constant last-week sales rate; no seasonality, stockout-demand correction or automatically applied supplier-delay notice."
+      }
+    },
+    {
+      "sku": "ORG-02",
+      "name": "Drawer Organizer",
+      "landed_unit_cost": 6,
+      "amazon_fee_per_sold_unit": 6,
+      "available_stock": 260,
+      "stock_as_of": "2026-11-01",
+      "weekly": {
+        "units": 24,
+        "revenue": 599.76,
+        "ad_spend": 380,
+        "ad_sales": 200,
+        "refund_amount": 0,
+        "return_requests": 0
+      },
+      "daily": [
+        {
+          "date": "2026-10-26",
+          "units": 3,
+          "revenue": 74.97,
+          "ad_spend": 50
+        },
+        {
+          "date": "2026-10-27",
+          "units": 4,
+          "revenue": 99.96,
+          "ad_spend": 55
+        },
+        {
+          "date": "2026-10-28",
+          "units": 3,
+          "revenue": 74.97,
+          "ad_spend": 52
+        },
+        {
+          "date": "2026-10-29",
+          "units": 4,
+          "revenue": 99.96,
+          "ad_spend": 56
+        },
+        {
+          "date": "2026-10-30",
+          "units": 3,
+          "revenue": 74.97,
+          "ad_spend": 54
+        },
+        {
+          "date": "2026-10-31",
+          "units": 4,
+          "revenue": 99.96,
+          "ad_spend": 58
+        },
+        {
+          "date": "2026-11-01",
+          "units": 3,
+          "revenue": 74.97,
+          "ad_spend": 55
+        }
+      ],
+      "supply": {
+        "production_days": 15,
+        "transit_days": 20,
+        "receiving_days": 7,
+        "safety_days": 7,
+        "planned_order_qty": 200,
+        "incoming_qty": 0,
+        "incoming_sellable_date": null
+      },
+      "source_excerpt": "ORG-02 — Drawer Organizer\nLanded unit cost: $6. Amazon fee per sold unit: $6. Available stock: 260 units as of 2026-11-01.\nWeekly units: 24; revenue: $599.76; ad spend: $380; ad-attributed sales: $200; completed refund amount: $0; return requests opened: 0.",
+      "metrics": {
+        "units": 24,
+        "revenue": 599.76,
+        "ad_spend": 380,
+        "ad_sales": 200,
+        "refund_amount": 0,
+        "return_requests": 0,
+        "net_revenue": 599.76,
+        "sold_unit_cost": 144,
+        "estimated_amazon_fees": 144,
+        "contribution": -68.24,
+        "contribution_margin_pct": -11.38,
+        "tacos_pct": 63.36,
+        "acos_pct": 190,
+        "return_request_intensity_pct": 0
+      },
+      "daily_series": [
+        {
+          "date": "2026-10-26",
+          "units": 3,
+          "revenue": 74.97,
+          "ad_spend": 50,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-27",
+          "units": 4,
+          "revenue": 99.96,
+          "ad_spend": 55,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-28",
+          "units": 3,
+          "revenue": 74.97,
+          "ad_spend": 52,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-29",
+          "units": 4,
+          "revenue": 99.96,
+          "ad_spend": 56,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-30",
+          "units": 3,
+          "revenue": 74.97,
+          "ad_spend": 54,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-31",
+          "units": 4,
+          "revenue": 99.96,
+          "ad_spend": 58,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-11-01",
+          "units": 3,
+          "revenue": 74.97,
+          "ad_spend": 55,
+          "source": "supplied_daily_row"
+        }
+      ],
+      "daily_coverage": {
+        "units": 7,
+        "revenue": 7,
+        "ad_spend": 7
+      },
+      "stock_plan": {
+        "as_of": "2026-11-01",
+        "average_daily_units": 3.43,
+        "coverage_days": 75.83,
+        "new_order_lead_days": 42,
+        "new_order_sellable_date": "2026-12-13",
+        "recorded_incoming_qty": 0,
+        "recorded_incoming_sellable_date": null,
+        "incoming_included_in_forecast": false,
+        "expected_gap_days_before_new_order": 0,
+        "first_gap_day_offset": null,
+        "reorder_point_units": 168,
+        "below_reorder_point": false,
+        "planned_order_qty": 200,
+        "planned_order_coverage_days": 58.33,
+        "status": "covered_to_new_order",
+        "assumption": "Constant last-week sales rate; no seasonality, stockout-demand correction or automatically applied supplier-delay notice."
+      }
+    },
+    {
+      "sku": "BOT-03",
+      "name": "Insulated Bottle",
+      "landed_unit_cost": 9,
+      "amazon_fee_per_sold_unit": 7,
+      "available_stock": 160,
+      "stock_as_of": "2026-11-01",
+      "weekly": {
+        "units": 28,
+        "revenue": 839.72,
+        "ad_spend": 84,
+        "ad_sales": 500,
+        "refund_amount": 59.98,
+        "return_requests": 5
+      },
+      "daily": [
+        {
+          "date": "2026-10-26",
+          "units": 4,
+          "revenue": 119.96,
+          "ad_spend": 12
+        },
+        {
+          "date": "2026-10-27",
+          "units": 4,
+          "revenue": 119.96,
+          "ad_spend": 10
+        },
+        {
+          "date": "2026-10-28",
+          "units": 5,
+          "revenue": 149.95,
+          "ad_spend": 15
+        },
+        {
+          "date": "2026-10-29",
+          "units": 3,
+          "revenue": 89.97,
+          "ad_spend": 10
+        },
+        {
+          "date": "2026-10-30",
+          "units": 4,
+          "revenue": 119.96,
+          "ad_spend": 12
+        },
+        {
+          "date": "2026-10-31",
+          "units": 5,
+          "revenue": 149.95,
+          "ad_spend": 15
+        },
+        {
+          "date": "2026-11-01",
+          "units": 3,
+          "revenue": 89.97,
+          "ad_spend": 10
+        }
+      ],
+      "supply": {
+        "production_days": 20,
+        "transit_days": 20,
+        "receiving_days": 7,
+        "safety_days": 7,
+        "planned_order_qty": 300,
+        "incoming_qty": 0,
+        "incoming_sellable_date": null
+      },
+      "source_excerpt": "BOT-03 — Insulated Bottle\nLanded unit cost: $9. Amazon fee per sold unit: $7. Available stock: 160 units as of 2026-11-01.\nWeekly units: 28; revenue: $839.72; ad spend: $84; ad-attributed sales: $500; completed refund amount: $59.98; return requests opened: 5.",
+      "metrics": {
+        "units": 28,
+        "revenue": 839.72,
+        "ad_spend": 84,
+        "ad_sales": 500,
+        "refund_amount": 59.98,
+        "return_requests": 5,
+        "net_revenue": 779.74,
+        "sold_unit_cost": 252,
+        "estimated_amazon_fees": 196,
+        "contribution": 247.74,
+        "contribution_margin_pct": 31.77,
+        "tacos_pct": 10,
+        "acos_pct": 16.8,
+        "return_request_intensity_pct": 17.86
+      },
+      "daily_series": [
+        {
+          "date": "2026-10-26",
+          "units": 4,
+          "revenue": 119.96,
+          "ad_spend": 12,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-27",
+          "units": 4,
+          "revenue": 119.96,
+          "ad_spend": 10,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-28",
+          "units": 5,
+          "revenue": 149.95,
+          "ad_spend": 15,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-29",
+          "units": 3,
+          "revenue": 89.97,
+          "ad_spend": 10,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-30",
+          "units": 4,
+          "revenue": 119.96,
+          "ad_spend": 12,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-31",
+          "units": 5,
+          "revenue": 149.95,
+          "ad_spend": 15,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-11-01",
+          "units": 3,
+          "revenue": 89.97,
+          "ad_spend": 10,
+          "source": "supplied_daily_row"
+        }
+      ],
+      "daily_coverage": {
+        "units": 7,
+        "revenue": 7,
+        "ad_spend": 7
+      },
+      "stock_plan": {
+        "as_of": "2026-11-01",
+        "average_daily_units": 4,
+        "coverage_days": 40,
+        "new_order_lead_days": 47,
+        "new_order_sellable_date": "2026-12-18",
+        "recorded_incoming_qty": 0,
+        "recorded_incoming_sellable_date": null,
+        "incoming_included_in_forecast": false,
+        "expected_gap_days_before_new_order": 7,
+        "first_gap_day_offset": 40,
+        "reorder_point_units": 216,
+        "below_reorder_point": true,
+        "planned_order_qty": 300,
+        "planned_order_coverage_days": 75,
+        "status": "stock_gap_risk",
+        "assumption": "Constant last-week sales rate; no seasonality, stockout-demand correction or automatically applied supplier-delay notice."
+      }
+    },
+    {
+      "sku": "MAT-04",
+      "name": "Desk Mat",
+      "landed_unit_cost": 5,
+      "amazon_fee_per_sold_unit": 5,
+      "available_stock": 240,
+      "stock_as_of": "2026-11-01",
+      "weekly": {
+        "units": 17,
+        "revenue": 390.83,
+        "ad_spend": 38,
+        "ad_sales": 250,
+        "refund_amount": 0,
+        "return_requests": 0
+      },
+      "daily": [
+        {
+          "date": "2026-10-26",
+          "units": 2,
+          "revenue": 45.98,
+          "ad_spend": 5
+        },
+        {
+          "date": "2026-10-27",
+          "units": 3,
+          "revenue": 68.97,
+          "ad_spend": 6
+        },
+        {
+          "date": "2026-10-28",
+          "units": 2,
+          "revenue": 45.98,
+          "ad_spend": 5
+        },
+        {
+          "date": "2026-10-29",
+          "units": 3,
+          "revenue": 68.97,
+          "ad_spend": 6
+        },
+        {
+          "date": "2026-10-30",
+          "units": 2,
+          "revenue": 45.98,
+          "ad_spend": 5
+        },
+        {
+          "date": "2026-10-31",
+          "units": 3,
+          "revenue": 68.97,
+          "ad_spend": 6
+        },
+        {
+          "date": "2026-11-01",
+          "units": 2,
+          "revenue": 45.98,
+          "ad_spend": 5
+        }
+      ],
+      "supply": {
+        "production_days": 15,
+        "transit_days": 20,
+        "receiving_days": 7,
+        "safety_days": 7,
+        "planned_order_qty": 200,
+        "incoming_qty": 0,
+        "incoming_sellable_date": null
+      },
+      "source_excerpt": "MAT-04 — Desk Mat\nLanded unit cost: $5. Amazon fee per sold unit: $5. Available stock: 240 units as of 2026-11-01.\nWeekly units: 17; revenue: $390.83; ad spend: $38; ad-attributed sales: $250; completed refund amount: $0; return requests opened: 0.",
+      "metrics": {
+        "units": 17,
+        "revenue": 390.83,
+        "ad_spend": 38,
+        "ad_sales": 250,
+        "refund_amount": 0,
+        "return_requests": 0,
+        "net_revenue": 390.83,
+        "sold_unit_cost": 85,
+        "estimated_amazon_fees": 85,
+        "contribution": 182.83,
+        "contribution_margin_pct": 46.78,
+        "tacos_pct": 9.72,
+        "acos_pct": 15.2,
+        "return_request_intensity_pct": 0
+      },
+      "daily_series": [
+        {
+          "date": "2026-10-26",
+          "units": 2,
+          "revenue": 45.98,
+          "ad_spend": 5,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-27",
+          "units": 3,
+          "revenue": 68.97,
+          "ad_spend": 6,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-28",
+          "units": 2,
+          "revenue": 45.98,
+          "ad_spend": 5,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-29",
+          "units": 3,
+          "revenue": 68.97,
+          "ad_spend": 6,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-30",
+          "units": 2,
+          "revenue": 45.98,
+          "ad_spend": 5,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-10-31",
+          "units": 3,
+          "revenue": 68.97,
+          "ad_spend": 6,
+          "source": "supplied_daily_row"
+        },
+        {
+          "date": "2026-11-01",
+          "units": 2,
+          "revenue": 45.98,
+          "ad_spend": 5,
+          "source": "supplied_daily_row"
+        }
+      ],
+      "daily_coverage": {
+        "units": 7,
+        "revenue": 7,
+        "ad_spend": 7
+      },
+      "stock_plan": {
+        "as_of": "2026-11-01",
+        "average_daily_units": 2.43,
+        "coverage_days": 98.82,
+        "new_order_lead_days": 42,
+        "new_order_sellable_date": "2026-12-13",
+        "recorded_incoming_qty": 0,
+        "recorded_incoming_sellable_date": null,
+        "incoming_included_in_forecast": false,
+        "expected_gap_days_before_new_order": 0,
+        "first_gap_day_offset": null,
+        "reorder_point_units": 119,
+        "below_reorder_point": false,
+        "planned_order_qty": 200,
+        "planned_order_coverage_days": 82.35,
+        "status": "covered_to_new_order",
+        "assumption": "Constant last-week sales rate; no seasonality, stockout-demand correction or automatically applied supplier-delay notice."
+      }
+    }
+  ],
+  "daily_series": [
+    {
+      "date": "2026-10-26",
+      "units": 14,
+      "revenue": 490.86,
+      "ad_spend": 87,
+      "complete": true
+    },
+    {
+      "date": "2026-10-27",
+      "units": 17,
+      "revenue": 588.83,
+      "ad_spend": 93,
+      "complete": true
+    },
+    {
+      "date": "2026-10-28",
+      "units": 15,
+      "revenue": 520.85,
+      "ad_spend": 90,
+      "complete": true
+    },
+    {
+      "date": "2026-10-29",
+      "units": 17,
+      "revenue": 608.83,
+      "ad_spend": 97,
+      "complete": true
+    },
+    {
+      "date": "2026-10-30",
+      "units": 15,
+      "revenue": 540.85,
+      "ad_spend": 96,
+      "complete": true
+    },
+    {
+      "date": "2026-10-31",
+      "units": 20,
+      "revenue": 718.8,
+      "ad_spend": 109,
+      "complete": true
+    },
+    {
+      "date": "2026-11-01",
+      "units": 13,
+      "revenue": 460.87,
+      "ad_spend": 90,
+      "complete": true
+    }
+  ],
+  "action_inbox": [
+    {
+      "id": "event-EV-02",
+      "sku": "STM-01",
+      "priority": "high",
+      "type": "supplier_delay",
+      "title": "Supplier warns STM-01 may be delayed by 10 days. The recorded ETA has NOT yet been updated.",
+      "reason": "Priority assigned by explicit demo rules.",
+      "suggested_action": "Confirm the revised sellable date, update the next report and rerun the forecast.",
+      "evidence": "2026-11-01 — EV-02: Supplier warns STM-01 may be delayed by 10 days. The recorded ETA has NOT yet been updated.",
+      "requires_human_review": true
+    },
+    {
+      "id": "event-EV-03",
+      "sku": null,
+      "priority": "high",
+      "type": "account_action",
+      "title": "SIMULATED Amazon account notice: review the requested account document by 2026-11-03.",
+      "reason": "Source gives deadline 2026-11-03",
+      "suggested_action": "Verify the notice directly in Seller Central; authenticity is not established by this demo.",
+      "evidence": "2026-11-01 — EV-03: SIMULATED Amazon account notice: review the requested account document by 2026-11-03.",
+      "requires_human_review": true
+    },
+    {
+      "id": "margin-ORG-02",
+      "sku": "ORG-02",
+      "priority": "high",
+      "type": "margin",
+      "title": "Negative weekly contribution",
+      "reason": "Estimated contribution is -68.24 USD.",
+      "suggested_action": "Review unit economics and ad spend before increasing spend.",
+      "evidence": null,
+      "requires_human_review": true
+    },
+    {
+      "id": "stock-BOT-03",
+      "sku": "BOT-03",
+      "priority": "high",
+      "type": "stock",
+      "title": "Stock gap risk",
+      "reason": "7 estimated uncovered days before a new order is sellable.",
+      "suggested_action": "Review the recorded ETA and replenishment options.",
+      "evidence": null,
+      "requires_human_review": true
+    },
+    {
+      "id": "stock-STM-01",
+      "sku": "STM-01",
+      "priority": "high",
+      "type": "stock",
+      "title": "Stock gap risk",
+      "reason": "10.33 estimated uncovered days before a new order is sellable.",
+      "suggested_action": "Review the recorded ETA and replenishment options.",
+      "evidence": null,
+      "requires_human_review": true
+    },
+    {
+      "id": "ads-ORG-02",
+      "sku": "ORG-02",
+      "priority": "medium",
+      "type": "advertising",
+      "title": "High ad-spend share",
+      "reason": "63.36% of gross sales spent on advertising; 30% is a configurable demo threshold.",
+      "suggested_action": "Inspect campaign-level data before changing a budget.",
+      "evidence": null,
+      "requires_human_review": true
+    },
+    {
+      "id": "event-EV-01",
+      "sku": "BOT-03",
+      "priority": "medium",
+      "type": "return_request",
+      "title": "BOT-03 customer requests a return: lid leaks. Request pending; no refund issued.",
+      "reason": "Priority assigned by explicit demo rules.",
+      "suggested_action": "Review the return request and reason. Do not issue or book a refund automatically.",
+      "evidence": "2026-11-01 — EV-01: BOT-03 customer requests a return: lid leaks. Request pending; no refund issued.",
+      "requires_human_review": true
+    },
+    {
+      "id": "event-EV-05",
+      "sku": "BOT-03",
+      "priority": "medium",
+      "type": "review",
+      "title": "BOT-03 written review, 2 stars: The lid leaks in my bag.",
+      "reason": "Priority assigned by explicit demo rules.",
+      "suggested_action": "Read the feedback alongside other samples; do not generalize from one rating.",
+      "evidence": "2026-10-31 — EV-05: BOT-03 written review, 2 stars: The lid leaks in my bag.",
+      "requires_human_review": true
+    },
+    {
+      "id": "event-EV-04",
+      "sku": null,
+      "priority": "low",
+      "type": "newsletter",
+      "title": "SIMULATED Amazon newsletter: optional weekly selling tips, no action required.",
+      "reason": "Priority assigned by explicit demo rules.",
+      "suggested_action": "Optional reading; no operational action inferred.",
+      "evidence": "2026-11-01 — EV-04: SIMULATED Amazon newsletter: optional weekly selling tips, no action required.",
+      "requires_human_review": true
+    },
+    {
+      "id": "event-EV-06",
+      "sku": "MAT-04",
+      "priority": "low",
+      "type": "review",
+      "title": "MAT-04 written review, 5 stars: Comfortable surface and good grip.",
+      "reason": "Priority assigned by explicit demo rules.",
+      "suggested_action": "Read the feedback alongside other samples; do not generalize from one rating.",
+      "evidence": "2026-10-30 — EV-06: MAT-04 written review, 5 stars: Comfortable surface and good grip.",
+      "requires_human_review": true
+    }
+  ],
+  "review_samples": [
+    {
+      "sku": "STM-01",
+      "review_sample_count": 0,
+      "rating_sample_count": 0,
+      "sample_mean_stars": null,
+      "feedback": [],
+      "caveat": "Provided samples only; not the Amazon listing rating or a population estimate."
+    },
+    {
+      "sku": "ORG-02",
+      "review_sample_count": 0,
+      "rating_sample_count": 0,
+      "sample_mean_stars": null,
+      "feedback": [],
+      "caveat": "Provided samples only; not the Amazon listing rating or a population estimate."
+    },
+    {
+      "sku": "BOT-03",
+      "review_sample_count": 1,
+      "rating_sample_count": 1,
+      "sample_mean_stars": 2,
+      "feedback": [
+        {
+          "id": "EV-05",
+          "summary": "BOT-03 written review, 2 stars: The lid leaks in my bag.",
+          "evidence": "2026-10-31 — EV-05: BOT-03 written review, 2 stars: The lid leaks in my bag."
+        }
+      ],
+      "caveat": "Provided samples only; not the Amazon listing rating or a population estimate."
+    },
+    {
+      "sku": "MAT-04",
+      "review_sample_count": 1,
+      "rating_sample_count": 1,
+      "sample_mean_stars": 5,
+      "feedback": [
+        {
+          "id": "EV-06",
+          "summary": "MAT-04 written review, 5 stars: Comfortable surface and good grip.",
+          "evidence": "2026-10-30 — EV-06: MAT-04 written review, 5 stars: Comfortable surface and good grip."
+        }
+      ],
+      "caveat": "Provided samples only; not the Amazon listing rating or a population estimate."
+    }
+  ],
+  "period_expenses": [
+    {
+      "name": "Photography for MAT-04",
+      "amount": 80,
+      "date": "2026-10-28"
+    }
+  ],
+  "data_quality": {
+    "warnings": [],
+    "missing_information": []
+  },
+  "limitations": [
+    "Synthetic demonstration; not connected to Amazon.",
+    "Contribution is an estimate, not accounting net profit. Flat per-unit Amazon fees are demo inputs.",
+    "All sold units retain their landed cost; refund handling includes no inventory recovery credit.",
+    "Period expenses are separately shown; not a complete cash-flow statement.",
+    "Return-request intensity divides requests opened this week by units sold this week; not a cohort return rate.",
+    "Daily gaps stay null. Weekly totals are never distributed across dates.",
+    "Review sample mean is not the listing rating.",
+    "AI extraction can misread source facts despite schema validation.",
+    "Supplier-delay notices do not update stock quantities or ETAs without a revised report.",
+    "Output is a downloadable execution artifact. No durable database, dashboard deployment or exactly-once delivery."
+  ],
+  "actions_executed": false
+}

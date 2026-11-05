@@ -1,0 +1,72 @@
+DEMO ONLY — SYNTHETIC AMAZON SELLER REPORT
+Report ID: SELLER-DEMO-2026-W44
+Reporting week: 2026-10-26 through 2026-11-01. Currency: USD.
+All figures below are invented. Stocks are sellable end-of-week snapshots. Revenue is before refunds. Weekly completed refunds already include any paid refund; do not add notification amounts. Amazon fee is a supplied flat per-sold-unit demo estimate.
+Historical context ONLY: a previous STM-01 order was 500 units, product payment $10,000; old photography cost $300. These are not payments during this reporting week. The explicitly stated landed unit cost below is the cost used for sold units.
+
+STM-01 — Travel Steamer
+Landed unit cost: $20. Amazon fee per sold unit: $9. Available stock: 120 units as of 2026-11-01.
+Weekly units: 42; revenue: $2099.58; ad spend: $160; ad-attributed sales: $900; completed refund amount: $49.99; return requests opened: 2.
+Daily breakdown (date | units | revenue USD | ad spend USD):
+2026-10-26 | 5 | 249.95 | 20
+2026-10-27 | 6 | 299.94 | 22
+2026-10-28 | 5 | 249.95 | 18
+2026-10-29 | 7 | 349.93 | 25
+2026-10-30 | 6 | 299.94 | 25
+2026-10-31 | 8 | 399.92 | 30
+2026-11-01 | 5 | 249.95 | 20
+For a new order placed at 2026-11-01: production 20 days; ocean transit 20 days; customs/inland/FBA receiving combined 7 days; safety buffer 7 days; planned quantity 300 units.
+Already ordered incoming quantity: 100 units. Incoming sellable date: 2026-11-25. This is separate from the planned new order.
+
+ORG-02 — Drawer Organizer
+Landed unit cost: $6. Amazon fee per sold unit: $6. Available stock: 260 units as of 2026-11-01.
+Weekly units: 24; revenue: $599.76; ad spend: $380; ad-attributed sales: $200; completed refund amount: $0; return requests opened: 0.
+Daily breakdown (date | units | revenue USD | ad spend USD):
+2026-10-26 | 3 | 74.97 | 50
+2026-10-27 | 4 | 99.96 | 55
+2026-10-28 | 3 | 74.97 | 52
+2026-10-29 | 4 | 99.96 | 56
+2026-10-30 | 3 | 74.97 | 54
+2026-10-31 | 4 | 99.96 | 58
+2026-11-01 | 3 | 74.97 | 55
+For a new order placed at 2026-11-01: production 15 days; ocean transit 20 days; customs/inland/FBA receiving combined 7 days; safety buffer 7 days; planned quantity 200 units.
+Already ordered incoming quantity: 0 units. Incoming sellable date: none; no incoming order. This is separate from the planned new order.
+
+BOT-03 — Insulated Bottle
+Landed unit cost: $9. Amazon fee per sold unit: $7. Available stock: 160 units as of 2026-11-01.
+Weekly units: 28; revenue: $839.72; ad spend: $84; ad-attributed sales: $500; completed refund amount: $59.98; return requests opened: 5.
+Daily breakdown (date | units | revenue USD | ad spend USD):
+2026-10-26 | 4 | 119.96 | 12
+2026-10-27 | 4 | 119.96 | 10
+2026-10-28 | 5 | 149.95 | 15
+2026-10-29 | 3 | 89.97 | 10
+2026-10-30 | 4 | 119.96 | 12
+2026-10-31 | 5 | 149.95 | 15
+2026-11-01 | 3 | 89.97 | 10
+For a new order placed at 2026-11-01: production 20 days; ocean transit 20 days; customs/inland/FBA receiving combined 7 days; safety buffer 7 days; planned quantity 300 units.
+Already ordered incoming quantity: 0 units. Incoming sellable date: none; no incoming order. This is separate from the planned new order.
+
+MAT-04 — Desk Mat
+Landed unit cost: $5. Amazon fee per sold unit: $5. Available stock: 240 units as of 2026-11-01.
+Weekly units: 17; revenue: $390.83; ad spend: $38; ad-attributed sales: $250; completed refund amount: $0; return requests opened: 0.
+Daily breakdown (date | units | revenue USD | ad spend USD):
+2026-10-26 | 2 | 45.98 | 5
+2026-10-27 | 3 | 68.97 | 6
+2026-10-28 | 2 | 45.98 | 5
+2026-10-29 | 3 | 68.97 | 6
+2026-10-30 | 2 | 45.98 | 5
+2026-10-31 | 3 | 68.97 | 6
+2026-11-01 | 2 | 45.98 | 5
+For a new order placed at 2026-11-01: production 15 days; ocean transit 20 days; customs/inland/FBA receiving combined 7 days; safety buffer 7 days; planned quantity 200 units.
+Already ordered incoming quantity: 0 units. Incoming sellable date: none; no incoming order. This is separate from the planned new order.
+
+One-off non-inventory expense PAID THIS WEEK: Photography for MAT-04, $80, 2026-10-28.
+Notifications supplied inside this weekly document:
+2026-11-01 — EV-01: BOT-03 customer requests a return: lid leaks. Request pending; no refund issued.
+2026-11-01 — EV-02: Supplier warns STM-01 may be delayed by 10 days. The recorded ETA has NOT yet been updated.
+2026-11-01 — EV-03: SIMULATED Amazon account notice: review the requested account document by 2026-11-03.
+2026-11-01 — EV-04: SIMULATED Amazon newsletter: optional weekly selling tips, no action required.
+2026-10-31 — EV-05: BOT-03 written review, 2 stars: The lid leaks in my bag.
+2026-10-30 — EV-06: MAT-04 written review, 5 stars: Comfortable surface and good grip.
+
+There are only two written review samples in this report. They do not represent the whole customer population.

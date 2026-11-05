@@ -1,22 +1,30 @@
-# Murat Akar
-### AI Automation & Software Projects
+# Murat Akar — Portfolio
 
-I build practical tools that connect AI, APIs, and business workflows, drawing on my experience running an e-commerce business.
+React + TypeScript + Vite portfolio featuring LeadOps Copilot, Lumina AI, Seller Copilot and Intersection Incident Lab.
 
-## Projects
+## Run locally
 
-### Lumina AI
-An AI-powered Amazon listing image generator. Originally built with n8n, the project evolved into a web application.
+```sh
+npm ci
+npm run dev
+```
 
-[View project on GitHub](https://github.com/Murat-Akar/lumina-ai)
+## Production build
 
-### Amazon Research Automation
-A screenshot-based automation project that navigates browser workflows, downloads research reports, and analyzes the exported data.
+```sh
+npm run build
+```
 
-[View project on GitHub](https://github.com/Murat-Akar/amazon-research-automation)
+Output: `dist/`. The hash-based routes work on static hosting without route rewrites.
 
-### LeadOps Copilot — In Development
-An n8n workflow being built to validate incoming leads, maintain HubSpot CRM records, qualify leads with AI, and prepare follow-up email drafts for human review.
+## Deploy to Vercel
 
-## Find Me
-[GitHub — Murat-Akar](https://github.com/Murat-Akar)
+Import this GitHub repository, select Vite, keep root directory `./`, build command `npm run build` and output directory `dist`. No environment variables are required by this version.
+
+The contact form uses a public Web3Forms form identifier. This is not a Gmail password or a private API credential.
+
+Seller Copilot displays bundled synthetic report data or a JSON uploaded locally in the browser. The site does not call n8n, HubSpot or Amazon APIs. Public workflow exports are inactive templates without credential bindings.
+
+Intersection Incident Lab is presented through screenshots and source links; the Kotlin/Kafka/PostgreSQL application is not hosted with this static portfolio.
+
+Asset sources and component references are documented in ATTRIBUTION.md.
