@@ -86,8 +86,8 @@ export function LeadOpsLab() {
             </a>
           </div>
           <video className="gtm-video" controls playsInline preload="none" poster="/images/lead-to-demo-workflow.png" aria-label="Lead-to-Demo Accelerator recorded walkthrough">
-            <source src="/media/lead-to-demo-accelerator.mp4" type="video/mp4" />
-            <a href="/media/lead-to-demo-accelerator.mp4">Open the Accelerator recording</a>
+            <source src="https://01c4gthax6prqeif.public.blob.vercel-storage.com/lead-to-demo-accelerator-4k-Z7GLgbu91Jmxj6AzaPOoSoaanxBT5F.mp4" type="video/mp4" />
+            <a href="https://01c4gthax6prqeif.public.blob.vercel-storage.com/lead-to-demo-accelerator-4k-Z7GLgbu91Jmxj6AzaPOoSoaanxBT5F.mp4">Open the Accelerator recording</a>
           </video>
           <figure className="leadops-workflow">
             <a href="/images/lead-to-demo-workflow.png" target="_blank" rel="noreferrer">
