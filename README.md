@@ -1,6 +1,6 @@
 # Murat Akar — Portfolio
 
-React + TypeScript + Vite portfolio featuring LeadOps Copilot, Lumina AI, Seller Insights and Intersection Incident Lab.
+React + TypeScript + Vite portfolio featuring LeadOps Copilot, Lumina AI, Seller Insights, Intersection Incident Lab, and GTM Diagnosis Lab.
 
 ## Run locally
 

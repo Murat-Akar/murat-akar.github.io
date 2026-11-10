@@ -44,3 +44,8 @@ body{background:var(--page);color:var(--ink)}.header{background:var(--page)}.but
 @media(max-width:760px){.incident-stage h2,.incident-architecture h2{font-size:28px}.incident-stage>p{font-size:14px}.incident-data-flow{grid-template-columns:1fr 1fr;gap:25px}.incident-data-flow svg{display:none}.incident-screenshot img{max-height:none}.incident-case figcaption{padding:14px;font-size:11px}}
 /* Show the workflow canvas without the editor's historical project title. */
 .seller-workflow-frame{overflow:hidden}.seller-workflow-frame>img{margin-top:-4.6%;max-width:100%;width:100%;height:auto}
+.gtm-video{display:block;width:100%;aspect-ratio:477/256;background:#17191d;border:1px solid var(--line);border-radius:12px}
+.gtm-evidence{grid-template-columns:repeat(3,minmax(0,1fr));align-items:start}
+.gtm-evidence figure a{display:block}
+.gtm-evidence figure img{width:100%;height:auto}
+@media(max-width:760px){.gtm-evidence{grid-template-columns:1fr}}
