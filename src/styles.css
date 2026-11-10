@@ -49,3 +49,6 @@ body{background:var(--page);color:var(--ink)}.header{background:var(--page)}.but
 .gtm-evidence figure a{display:block}
 .gtm-evidence figure img{width:100%;height:auto}
 @media(max-width:760px){.gtm-evidence{grid-template-columns:1fr}}
+.gtm-case .gtm-video,.gtm-case .leadops-workflow,.gtm-case .gtm-evidence{margin-top:22px}
+.gtm-case .leadops-workflow a{display:block}
+.gtm-case .leadops-workflow img{width:100%;height:auto}
